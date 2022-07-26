@@ -58,7 +58,7 @@ int main ()
 		cement = (2400 * volume) / 5.5;
 		fine = (1.5 * volume * 2400) / 5.5;
 		coarse = (3 * volume * 2400) / 5.5;
-		printf("Based on the grade you selected and the volume (%.2lfcubic.mtr) you entered, you'd need:\nCement = i%.2lfKg\nFine = %.2lfKg\nand\nCoarse = %.2lfKg to make the concrete.\n", volume, cement, fine, coarse);
+		printf("Based on the grade you selected and the volume (%.2lfcubic.mtr) you entered, you'd need:\nCement = %.2lfKg\nFine = %.2lfKg\nand\nCoarse = %.2lfKg to make the concrete.\n", volume, cement, fine, coarse);
 	}
 // For Grade = C25:
 	else if (grade == 6)
